@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 50px;
+}
+
+header span{
+    color:orange;
+}
+
+nav a{
+    margin-left:20px;
+    text-decoration:none;
+    color:white;
+}
+
+nav a:hover{
+    color:orange;
+}
+
+section{
+    padding:50px;
+}
+
+/* HOME */
+.home{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.home span{
+    color:orange;
+}
+
+.social-icons i{
+    margin:10px;
+    padding:10px;
+    border:2px solid orange;
+    border-radius:50%;
+    color:orange;
+}
+
+.social-icons i:hover{
+    background:orange;
+    color:black;
+}
+
+.right img{
+    width:300px;
+    border-radius:10px;
+}
+
+/* ABOUT */
+.about{
+    text-align:center;
+}
+
+.about h2{
+    color:orange;
+    margin-bottom:20px;
+}
+
+.info{
+    display:flex;
+    justify-content:space-around;
+    margin-top:30px;
+}
+
+/* EDUCATION */
+.education{
+    text-align:center;
+}
+
+.education h2{
+    color:orange;
+}
+
+.card{
+    background:gray;
+    color:black;
+    margin:20px auto;
+    padding:20px;
+    width:300px;
+    border-radius:10px;
+}
+
+/* SERVICES */
+.service{
+    text-align:center;
+}
+
+.service h2{
+    color:orange;
+}
+
+.service-box{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.box{
+    background:#222;
+    margin:10px;
+    padding:20px;
+    border-radius:10px;
+    width:200px;
+}
+
+.box:hover{
+    background:orange;
+    color:black;
+}
+
+/* CONTACT */
+.contact{
+    text-align:center;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+}
+
+.contact form{
+    width:60%;
+    margin:auto;
+}
+
+.contact input,
+.contact textarea{
+    width:100%;
+    margin-bottom:15px;
+    padding:10px;
+}
+
+.contact button{
+    width:100%;
+    padding:10px;
+    background:orange;
+    border:none;
+    color:white;
+}
+
+.row{
+    display:flex;
+    justify-content:space-around;
+    margin-top:30px;
+}
+
+.col{
+    width:30%;
+}
